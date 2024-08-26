@@ -1,0 +1,6 @@
+Écrire un programme qui affiche l'alphabet une lettre sur 2 en minuscule, et le reste en majuscule (Voir l'exemple), suivi d'un '\n'.
+
+Exemple:
+
+$> ./maff _alpha | cat -e
+aBcDeFgHiJkLmNoPqRsTuVwXyZ$

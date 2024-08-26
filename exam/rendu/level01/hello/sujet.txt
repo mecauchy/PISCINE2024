@@ -1,0 +1,14 @@
+Nom de la tâche : hello
+Fichiers attendus : hello.c
+Fonctions autorisées : write
+--------------------------------------------------------------------------------
+
+Écrivez un programme qui affiche « Hello World !» suivi d'un \n.
+
+Exemple :
+
+$>./hello
+Hello World!
+$>./hello | cat -e
+Hello World!$
+$>

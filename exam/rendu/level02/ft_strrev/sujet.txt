@@ -1,0 +1,12 @@
+Nom de l'affectation : ft_strrev
+Fichiers attendus : ft_strrev.c
+Fonctions autorisées :
+--------------------------------------------------------------------------------
+
+Écrivez une fonction qui inverse (sur place) une chaîne.
+
+Elle doit renvoyer son paramètre.
+
+Votre fonction doit être déclarée comme suit :
+
+char    *ft_strrev(char *str);

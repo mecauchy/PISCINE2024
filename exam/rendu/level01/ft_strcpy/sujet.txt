@@ -1,0 +1,2 @@
+Reproduisez à l'identique le comportement de la fonction stropy (man strcpy).Votre fonction devra être prototypée de la façon suivante char
+*ft_strcpy (char *s1, char *s2);

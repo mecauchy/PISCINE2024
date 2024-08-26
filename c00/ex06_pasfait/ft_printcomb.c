@@ -1,6 +1,18 @@
 #include <unistd.h>
 #include <stdio.h>
 
+void    ft_nb(int a, int b)
+{
+    char    *nb;
+
+    while (a < 10 && b < 10)
+    {
+        nb = a + b + '0';
+        a++;
+        b++;
+    }
+}
+
 void    ft_print_comb(void)
 {
     int a;
