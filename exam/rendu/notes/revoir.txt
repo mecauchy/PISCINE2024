@@ -1,6 +1,10 @@
 A REVOIR :
 
--	strcmp :: - valeur de retour cad pourquoi (s1 - s2) == int ? 
+-	strcmp ::
 		  - a quoi correspond le return
 
 -	ft_swap :: - manipuler les int * plus comprendre interet
+
+-	wdmatch :: boucle
+
+-	inter/union :: revoir le fonctionnement

@@ -1,0 +1,28 @@
+Nom de la tâche : lcm
+Fichiers attendus : lcm.c
+Fonctions autorisées :
+--------------------------------------------------------------------------------
+
+Écrivez une fonction qui prend deux entiers non signés comme paramètres et renvoie le
+LCM calculé de ces paramètres.
+
+Le LCM (plus petit multiple commun) de deux entiers non nuls est le plus petit entier positif
+divisible par les deux entiers.
+
+Un LCM peut être calculé de deux manières :
+
+- Vous pouvez calculer tous les multiples de chaque entier jusqu'à ce que vous ayez un
+multiple commun autre que 0
+
+- Vous pouvez utiliser le plus grand facteur commun (Highest Common Factor) de ces deux entiers et
+calculer comme suit :
+
+LCM(x, y) = | x * y | / HCF(x, y)
+
+| x * y | signifie « Valeur absolue du produit de x par y »
+
+Si au moins un entier est nul, le LCM est égal à 0.
+
+Votre fonction doit être prototypée comme suit :
+
+unsigned int lcm(unsigned int a, unsigned int b);
