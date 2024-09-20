@@ -12,10 +12,8 @@ char	*expand_str(char *str)
 	i = 0;
 	j = 0;
 	a = 0;
-	while (str[i] == ' ' || str[i] == '\t')
-	{
+	while (str[i] && (str[i] == ' ' || str[i] == '\t'))
 		i++;
-	}
 	while (str[i])
 	{
 		if (str[i] != ' ' && str[i] != '\t')

@@ -1,5 +1,6 @@
 A REVOIR :
 
+
 -	strcmp ::
 		  - a quoi correspond le return
 
@@ -8,3 +9,10 @@ A REVOIR :
 -	wdmatch :: boucle
 
 -	inter/union :: revoir le fonctionnement
+
+-	ft_rrange :: exo pas fini
+			fait = revoir l'affichage de tableaux d'int* dans le main,
+			revoir malloc
+-	putnbr
+	
+-	recursif (C05)
